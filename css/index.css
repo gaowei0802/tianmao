@@ -1,0 +1,301 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-03 09:29:15
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 16:47:50
+*/
+@import url("base.css");
+@font-face {
+  font-family: 'iconfont';  /* project id 526627 */
+  src: url('https://at.alicdn.com/t/font_526627_hjl1nt70zilik9.eot');
+  src: url('https://at.alicdn.com/t/font_526627_hjl1nt70zilik9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_526627_hjl1nt70zilik9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_526627_hjl1nt70zilik9.ttf') format('truetype'),
+  url('https//at.alicdn.com/t/font_526627_hjl1nt70zilik9.svg#iconfont') format('svg');
+}
+body{
+	height: auto;
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.header{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.header_icon{
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	margin: 0.24rem 0 0 0.4rem;
+}
+.sousuo{
+	width: 4rem;
+	height: 0.66rem;
+	background: #fff;
+	border-radius: 0.06rem;
+	float: left;
+	margin: 0.11rem 0 0 0.4rem;
+}
+.sousuo_zi{
+	line-height: 0.66rem;
+	margin-left: 0.2rem;
+	color: #ccc;
+	font-size: 0.24rem;
+}
+.denglu{
+	height: 0.88rem;
+	float: left;
+	margin: 0 0 0 0.33rem;
+}
+.denglu a{
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.88rem;
+}
+.header_icon i{
+	font-size: 0.36rem;
+	line-height: 0.4rem;
+	color: #fff;
+}
+/* 头部结束 banner开始 */
+.banner{
+	width: 100%;
+	height: 2.23rem;
+	margin-top: 0.88rem;
+}
+.banner ul{
+	width: 100%;
+	height: 2.23rem;
+	position: relative;
+}
+.banner ul li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner ul li a{
+	display: block;
+	width: 100%;
+	height: 2.23rem;
+}
+.banner ul li a img{
+	width: 100%;
+	height: 2.23rem;
+}
+/* banner结束，导航开始 */
+.nav{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+}
+.nav li{
+	width: 20%;
+	height: 0 auto;
+	float: left;
+	margin-bottom: 0.2rem;
+}
+.nav li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.nav li a img{
+	display: block;
+	width: 0.72rem;
+	height: 0.72rem;
+	margin: 0.08rem auto;
+}
+.nav li a h2{
+	font-size: 0.22rem;
+	color: #051b28;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 0.1rem;
+}
+/* 必抢 */
+.biqiang{
+	width: 100%;
+	height: 5.71rem;
+	margin-bottom: 0.75rem;
+	/* background: red; */
+}
+.biqiang .kuwan_name{
+	color: #ff2e2e;
+}
+.biqiang_list{
+	width: 100%;
+	height: 5.6rem;
+	background: #f0f0f0;
+}
+.biqiang_list ul{
+	width: 100%;
+	height: 100%;
+}
+.biqiang_list ul li{
+	width: calc(100% / 4);
+	height: 2.8rem;
+	background: #fff;
+	float: left;
+}
+.biqiang_list ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 0.2rem;
+	background: #fff;
+}
+.biqiang_list ul li a p{
+	font-size: 0.22rem;
+	color: #333;
+	margin-left: 0.3rem;
+}
+.biqiang_list ul li a img{
+	width: 1.47rem;
+	height: 1.47rem;
+	margin: 0.14rem 0 0.2rem 0.06rem;
+}
+.biqiang_list ul li a i{
+	margin-left: 0.15rem;
+	color: #ff2e2e;
+	font-size: 0.20rem;
+}
+.biqiang_list ul li a s{
+	color: #9b9b9b;
+	font-size: 0.18rem;
+}
+.biqiang_list ul li:nth-child(5),
+.biqiang_list ul li:nth-child(6),
+.biqiang_list ul li:nth-child(7),
+.biqiang_list ul li:nth-child(8){
+	margin-top: 1px;
+}
+.biqiang_list ul li:nth-child(4),
+.biqiang_list ul li:nth-child(8){
+	border-left: 0.01rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+/* 酷玩 */
+.kuwan{
+	width: 100%;
+	height: 3.22rem;
+	/* background: red; */
+}
+.kuwan_name{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+	line-height: 0.62rem;
+	text-align: center;
+	color: #4a9fe7;
+	font-size: 0.24rem;
+}
+.kuwan_name i{
+	font-size: 0.24rem;
+}
+.kuwan_list{
+	width: 100%;
+	height: 2.6rem;
+	/* background: red; */
+}
+.kuwan_list ul li{
+	width: calc(100% / 3);
+	height: 2.6rem;
+	float: left;
+}
+.kuwan_list ul li a img{
+	width: 100%;
+	height: 100%;
+}
+/* 猜你喜欢 */
+.like{
+	width: 100%;
+	height: 5.16rem;
+	background: red;
+}
+.like .kuwan_name{
+	color: #999;
+}
+.like_list{
+	width: 100%;
+	height: 4.54rem;
+	background: blue;
+}
+.like_list ul li{
+	width: calc(100% / 2);
+	height: 4.54rem;
+	background: #fff;
+	float: left;
+}
+.like_list ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.like_list ul li a img{
+	width: 100%;
+	height: 3.17rem;
+}
+.like_list ul li a p{
+	color: #666;
+	font-size: 0.2rem;
+	padding: 0.1rem 0.2rem 0;
+}
+.like_list ul li a i{
+	margin-left: 0.15rem;
+	color: #ff2e2e;
+	font-size: 0.28rem;
+}
+.like_list ul li a em{
+	color: #ff2e2e;
+	font-size: 0.2rem;
+}
+.like_list ul li:first-child{
+	border-right: 0.03rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+.biqiang_list ul li:last-child{
+	border-left: 0.03rem solid #f0f0f0;
+	box-sizing: border-box;
+}
+/* footer */
+.foot_logo{
+	width: 100%;
+	height: 0.8rem;
+}
+.foot_logo img{
+	width: 0.6rem;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.footer{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	border-top: 0.04rem solid #000;
+	box-sizing: border-box;
+}
+.footer ul{
+	width: 4.5rem;
+	height: 0.3rem;
+	margin: 0.2rem auto;
+}
+.footer ul li{
+	float: left;
+	color: #999;
+	font-size: 0.22rem;
+}
+.zhucehao{
+	width: 4rem;
+	height: 0.3rem;
+	color: #ccc;
+	margin: 0 auto;
+	font-size: 0.2rem;
+}
